@@ -17,9 +17,7 @@ const element = (tag, classes, content, set) => {
   return node;
 };
 
-const selector = (tag) => {
-  return document.querySelector(tag);
-};
+const selector = (tag) => document.querySelector(tag);
 
 const createDropDownList = () => {
   const dropdownList = element('ul', ['dropdown__list']);
